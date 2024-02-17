@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iCoder - About Us</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">iCoder <i class="fa-solid fa-code"></i> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html"> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Web Developement</a></li>
+                            <li><a class="dropdown-item" href="#"> Core Java</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Is this helpful?</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    <div class="container ">
+                        <button class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+                        <button class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" >Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Login Modals Box -->
+    <div class="container">
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Save Password</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                          </form>
+                                           </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modals Box -->
+    <div class="container">
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Create Account</button>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Team -->
+    <div class="container marketing my-3 text-center">
+
+        <!-- Three columns of text below the carousel -->
+        <h1 class="text-center my-4">Our Executive Directors</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="team (1).jpg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x100" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+
+            <h2 class="fw-normal">Jenifer Louis</h2>
+            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+           <img src="team (2).jpg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+    
+            <h2 class="fw-normal">William David</h2>
+            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="team (3).jpg" alt="" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect>
+    
+            <h2 class="fw-normal">Yung Chung Fu</h2>
+            <p>And lastly this, the third column of representative placeholder content.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    
+    
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider my-5">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">We started iCoder in 1988.<span class="text-muted">It’ll help with alot.</span></h2>
+            <p class="lead">A coding interview, technical interview, programming interview or Microsoft interview is a technical problem-based job interview technique to assess applicants....</p>
+          </div>
+          <div class="col-md-5">
+            <img src="blog (1).jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect>
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider my-5">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">It all started with iCoder's idea.<span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+           <img src="blog (3).jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect>
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider my-5">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">iCoder Achievements and Results. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="blog (2).jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect>
+    
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
